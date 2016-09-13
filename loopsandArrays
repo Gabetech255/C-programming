@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <time.h>
+//always make sure you include the main c directory stdio.h
+
+//define sets a constant variable 
+#define SIZE 10
+
+int main(void){
+
+int a,b,c;
+int x,y,z;
+float q,r,s;
+int input = 1;
+int intarr[SIZE];
+
+
+printf("Enter number\n");
+
+    //remeber to initialize the variable so the loop will start
+	//While loops are designed only to loop until the initial condition is false
+    while(input == 1){
+        printf("input a number below\n");
+	//scans in an int(%d)
+        scanf("%d", &input);
+
+        if(input == 1){
+            printf("until you enter a number other than one the loop will repeat\n");
+
+        }
+    }
+
+printf("see was that so hard\n");
+
+printf("Now we are going to test for loops\nThis loop is going to request 10 numbers from you and store the answers\n");
+
+	//for loops are initialized in 3 parts (initialization;continuation conditionl;incrementer)
+		//the initialization just initializes some variable
+		//the contiuation condition is what is check everytime the loop runs
+		//incrementer increments a certain variable every time the loop runs
+    for(x = 0; x < SIZE; x++){
+
+        printf("enter a number\n");
+        scanf("%d", &intarr[x]);
+        printf("you entered a %d\n", intarr[x]);
+    }
+    
+    printf("The array consists of the following numbers\n");
+    
+    //this loop prints out all the values in the array
+    for (x = 0; x < SIZE; x++){
+        printf("%d ", intarr[x]);
+
+    }
+}
