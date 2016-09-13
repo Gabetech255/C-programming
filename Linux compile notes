@@ -1,0 +1,9 @@
+/*If your using Debian/Ubuntu, you should alreay have the GCC compile installed on your system. 
+1.Just open a terminal
+2.navigate to the directory containing the c file
+ex: $cd Documents
+3. compile with $ gcc filename.c
+4. the compiled file should now appear in the directory. look for it with the ls cmd
+5. Run the program with $ ./filename
+
+*/
