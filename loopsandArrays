@@ -36,7 +36,7 @@ printf("Now we are going to test for loops\nThis loop is going to request 10 num
         printf("you entered a %d\n", intarr[x]);
     }
     printf("The array consists of the following numbers\n");
-    //this loop prints out all the values in the array
+    //this loop prints out all the values in the array all on the same line
     for (x = 0; x < SIZE; x++){
         printf("%d ", intarr[x]);
     }
