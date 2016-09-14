@@ -26,10 +26,9 @@ printf("Enter number\n");
 
 printf("see was that so hard\n");
 printf("Now we are going to test for loops\nThis loop is going to request 10 numbers from you and store the answers\n");
-	//for loops are initialized in 3 parts (initialization;continuation conditionl;incrementer)
+	//for loops are initialized in 3 parts (initialization;continuation conditionl;runs each loop)
 		//the initialization just initializes some variable
 		//the contiuation condition is what is check everytime the loop runs
-		//incrementer increments a certain variable every time the loop runs
     for(x = 0; x < SIZE; x++){
         printf("enter a number\n");
         scanf("%d", &intarr[x]);
