@@ -6,4 +6,4 @@ Audiosystem 75
 Bed 65
 Nighttable 65
 Lamp 50
-Hibachi 35
+Hitatchi 35
